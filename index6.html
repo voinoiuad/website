@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Course Archive</title>
+    <style>
+        body {
+            background-color: #111; /* Dark background */
+            color: #f2f2f2; /* Light text */
+            font-family: 'Courier New', monospace; /* Monospace font */
+            margin: 0;
+            padding: 1em;
+        }
+        header, .container, .footer {
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1, h2 {
+            color: #f2f2f2;
+        }
+        a {
+            color: #ffcc00; /* Bright yellow links as seen in the image */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            background-color: #333; /* Dark container backgrounds */
+            padding: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            text-align: center;
+            padding: 1em 0;
+        }
+        .course {
+            background-color: #222; /* Even darker background for courses */
+            color: #f2f2f2; /* Light text for readability */
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .small-section {
+            max-width: 400px;
+            margin: 10px 0;
+        }
+        .schedule-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .upcoming-exams {
+            margin-top: 30px;
+        }
+        .section-title {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #ffcc00; /* Matching the link color for consistency */
+        }
+        .hidden-section {
+            display: none; /* Initially hide the section */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>College Course Archive</h1>
+    </header>
+    <div class="container">
+        <!-- Schedule and Upcoming Exams Section -->
+        <div class="small-section schedule-container">
+            <div>
+                <h2 class="section-title">Schedule</h2>
+                <p>This category contains the schedule for the courses:</p>
+                <p><a href="file:///home/hermanofalaska/Downloads/PSC_EN_I.pdf" target="_blank">Download Schedule PDF</a></p>
+            </div>
+            <div class="upcoming-exams">
+                <h2 class="section-title">Upcoming Exams</h2>
+                <p>List of upcoming exams goes here.</p>
+            </div>
+        </div>
+
+        <!-- Example course entry -->
+        <div class="course">
+            <h2>Neuroscience Course</h2>
+            <p>Description of the course goes here.</p>
+            <p><strong>Classroom Link:</strong> <a href="https://classroom.google.com/u/1/c/NjY1NTk2MDc1Njc2" target="_blank">https://classroom.google.com/u/1/c/NjY1NTk2MDc1Njc2</a></p>
+            <p><a href="https://www.youtube.com/watch?v=NNnIGh9g6fA&list=PL848F2368C90DDC3D" target="_blank">Neuroscience Course Playlist</a></p>
+        </div>
+        <!-- Add more courses as needed -->
+
+        <!-- Reading List Section -->
+        <a href="#reading-list">View Reading List</a>
+        <div id="reading-list" class="hidden-section">
+            <h2 class="section-title">Reading List</h2>
+            <ul>
+                <li>The Nature of the Beast: How Emotions Guide Us by David J. Anderson</li>
+                <li>The Secret Pulse of Time: Making Sense of Life's Scarcest Commodity by Stefan Klein</li>
+                <li>The Salt Fix by James DiNicolantonio</li>
+                <li>The Good Gut by Justin Sonnenburg</li>
+                <li>Play It Away: A Workaholic's Cure for Anxiety by Charlie Hoehn</li>
+                <li>The Neuroscience of Emotion: A New Synthesis by Ralph Adolphs</li>
+                <li>When Men Behave Badly by David M. Buss</li>
+                <li>The Creative Act: A Way of Being by Rick Rubin</li>
+                <li>Outlive: The Science and Art of Longevity by Peter Attia</li>
+                <li>Mastery by Robert Greene</li>
+            </ul>
+        </div>
+
+        <!-- Resources Section -->
+        <a href="#resources">View Resources</a>
+        <div id="resources" class="hidden-section">
+            <h2 class="section-title">Resources</h2>
+            <ul>
+                <li><a href="https://mlu-explain.github.io/" target="_blank">MLU Explain</a></li>
+                <li><a href="https://www.kaggle.com/" target="_blank">Kaggle</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>Darie at <a href="mailto:darie@voinoiu.xyz">darie@voinoiu.xyz</a></p>
+            <img src="file:///home/hermanofalaska/Downloads/mailbox.svg" alt="Mailbox">
+        </div>
+
+    </div>
+    <div class="footer">
+        <img src="file:///home/hermanofalaska/Downloads/mamagnolia_acresunderconstruction.gif" alt="Construction GIF">
+        <img src="file:///home/hermanofalaska/Downloads/chad.gif" alt="Chad GIF">
+        <p>No JavaScript has been used for building this webpage</p>
+    </div>
+</body>
+</html>
